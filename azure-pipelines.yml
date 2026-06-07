@@ -48,3 +48,8 @@ steps:
     targetPath: 'playwright-report'
     artifact: 'Relatorio-Testes-E2E'
   displayName: 'Salvando Relatórios de Teste'
+
+# Plugin Playwright Marketplace
+- task: UploadPlaywrightReport@1
+  condition: always()
+  displayName: 'Publicando Relatório Playwright'
