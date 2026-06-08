@@ -6,3 +6,5 @@ reports
 /blob-report/
 /playwright/.cache/
 results.xml
+agent/
+vsts-agent-win-x64-4.274.1.zip
