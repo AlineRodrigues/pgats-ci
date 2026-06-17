@@ -18,14 +18,8 @@ on:
     - cron: '*/30 * * * *'
 
     #Roda toda sexta-feira à meia noite
-<<<<<<< HEAD
-    - cron: '55 22 * * 2'
+    - cron: '13 00 * * 3'
     
-    
-=======
-    - cron: '05 23 * * 2'
-
->>>>>>> d45ce72a006bb01c999db4fe3bb092210e60c6d3
 #tarefas dentro da pipeline = jobs
 
 jobs:
