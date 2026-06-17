@@ -19,7 +19,8 @@ on:
 
     #Roda toda sexta-feira à meia noite
     - cron: '55 22 * * 2'
-
+    
+    
 #tarefas dentro da pipeline = jobs
 
 jobs:
