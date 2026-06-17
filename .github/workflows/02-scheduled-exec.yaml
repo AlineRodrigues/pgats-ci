@@ -18,7 +18,7 @@ on:
     - cron: '*/30 * * * *'
 
     #Roda toda sexta-feira à meia noite
-    - cron: '55 22 * * 2'
+    - cron: '05 23 * * 2'
 
 #tarefas dentro da pipeline = jobs
 
